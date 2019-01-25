@@ -25,4 +25,8 @@ const fareDoubler = createFareMultiplier(2)
 const fareTripler = createFareMultiplier(3)
 
 // This function takes two arguments, an array of `drivers` and either the `returnFirstTwoDrivers()` or `returnLastTwoDrivers()` function. Based on these two arguments, `fetchSpecifiedDrivers()` will return either the first two drivers or the last two drivers.
-// fetchSpecifiedDrivers()
+function fetchSpecifiedDrivers(drivers, returnLastTwoDrivers) {
+  return returnLastTwoDrivers(drivers)
+}
+
+}
