@@ -9,7 +9,7 @@ const returnLastTwoDrivers = function(drivers) {
 }
 
 // This is an array containing two elements: the two functions that we previously defined (`returnFirstTwoDrivers()` and `returnLastTwoDrivers()`).
-selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 // This is a higher-order function that takes in one argument, an integer, and returns a function that will multiply a fare for a ride accordingly. If `createFareMultiplier()` receives an argument of `4`, it will return a function that takes in a fare as an argument and quadruples the fare.
 // createFareMultiplier()
