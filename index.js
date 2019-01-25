@@ -4,7 +4,9 @@ const returnFirstTwoDrivers = function(drivers) {
 };
 
 // Declare a variable with `const` that is assigned an anonymous function. The assigned function should accept an array of drivers as an argument and return the **last** two drivers in the array.
-// returnLastTwoDrivers()
+const returnLastTwoDrivers = function{drivers) {
+  return drivers.slice(drivers.length - 2)
+}
 
 // This is an array containing two elements: the two functions that we previously defined (`returnFirstTwoDrivers()` and `returnLastTwoDrivers()`).
 // selectingDrivers
